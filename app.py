@@ -77,7 +77,6 @@ def get_response_llm(llm,vectorstore_faiss,query):
     answer=qa({"query":query})
     return answer['result']
 import streamlit as st
-import streamlit as st
 
 def main():
     st.set_page_config(page_title="Style Advisor: Interactive Fashion Chat")
